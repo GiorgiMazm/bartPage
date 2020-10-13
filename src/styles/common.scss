@@ -1,0 +1,55 @@
+@import "./variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-size: $font-size-small;
+  color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+
+  @media (max-width: 700px) {
+    & {
+      max-width: 640px;
+      padding: 0 20px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    & {
+      padding: 0px;
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn {
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.closer {
+  display: none;
+}
+.active {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}

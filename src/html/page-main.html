@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- section header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="container navbar-inner">
+
+          <div class="hamburger">
+            <div class="hamburger__item"></div>
+            <div class="hamburger__item"></div>
+            <div class="hamburger__item"></div>
+          </div>
+
+          <div class="closer">
+            <img src="../img/page-main/cross.png" alt="cross">
+          </div>
+
+          <ul class="navbar-ul">
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Главная </a>
+            </li>
+
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Наши работы</a>
+            </li>
+
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Записаться</a>
+            </li>
+
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Контакты</a>
+            </li>
+
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">HTML Academy</a>
+            </li>
+          </ul>
+
+          <button class="navbar__button btn">
+            <img
+              class="navbar__arrow"
+              src="../img/page-main/login.png"
+              alt="arrow"
+            />Войти
+          </button>
+        </div>
+      </nav>
+
+      <div class="header-form form hidden">
+          <form action="">
+            <div class="form__tittle">ЛИЧНЫЙ КАБИНЕТ</div>
+          <div class="form__text">ЛИЧНЫЙ КАБИНЕТ</div>
+          <input class="form__input" type="text" placeholder="Логин">
+          <input class="form__input" type="text" placeholder="Пароль">
+
+            <div class="form-wrapper">
+              <div class="form__remember">
+                <input class="form__check" type="checkbox">
+                Запомните меня
+              </div>
+  
+            <a href="#" class="form__pass">
+              Я забыл пароль!
+            </a>
+            </div>
+
+          <div class="form-wrapper">
+            <button class="form__button">Войти</button>
+          <div class="form__close">Закрыть</div>
+          </div>
+          </form>
+      </div>
+      <div class="header-inner">
+        <div class="container">
+          <div class="header-logo logo">
+            <img
+              src="../img/page-main/logo.png.png"
+              alt="logo"
+              class="header__logo"
+            />
+          </div>
+
+          <div class="static static-header">
+            <div class="static__item static__item--white static__item--value">
+              <div class="static__text static__text--value">Стрижка у нас это выгодно!</div>
+            </div>
+            <div class="static__item static__item--money">
+              <div class="static__text">
+                <div class="static__number">1 500 *</div>
+                <div class="static__desc">рублей влажений</div>
+              </div>
+            </div>
+            <div class="static__item static__item--light">
+              <div class="static__text">
+                <div class="static__number">7 200</div>
+                <div class="static__desc">секунд времени мастера</div>
+              </div>
+            </div>
+
+            <div class="static__item static__item--white static__item--hair">
+              <div class="static__text--white ">
+                Мужская стрижка требует точного подхода. Обратимся к статистике:
+              </div>
+              <div class="static__fake">
+                * — приведённые данные ложь
+              </div>
+            </div>
+
+            <div class="static__item static__item--grey">
+              <div class="static__text">
+                <div class="static__number">90 000</div>
+                <div class="static__desc">постриженных волос</div>
+              </div>
+            </div>
+
+            <div class="static__item">
+              <div class="static__text">
+                <div class="static__number">500 000</div>
+                <div class="static__desc">лайков и комплиментов</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- section about -->
+    <section class="section-about">
+      <div class="container">
+        <div class="services section-about__services">
+          <div class="services__item">
+            <div class="services__img">
+              <img src="../img/page-main/shear.png" alt="shear" />
+            </div>
+
+            <div class="services-wrapper">
+              <div class="services__tittle">быстро</div>
+            <div class="services__text">
+              Мы делаем свою работу быстро! Два часа пролетят незаметно и вы —
+              счастливый обладатель стильной стрижки-минутки
+            </div>
+            </div>
+          </div>
+
+          <div class="services__item">
+            <div class="services__img">
+              <img src="../img/page-main/chair.png" alt="shear" />
+            </div>
+            <div class="services-wrapper">
+              <div class="services__tittle">круто</div>
+            <div class="services__text">
+              Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду
+              футбола или кино. Во всяком случае внешне.
+            </div>
+            </div>
+          </div>
+
+          <div class="services__item">
+            <div class="services__img">
+              <img src="../img/page-main/bank.png" alt="shear" />
+            </div>
+            <div class="services-wrapper">
+              <div class="services__tittle">дорого</div>
+            <div class="services__text">
+              Наши мастера — профессионалы своего делаи не могут стоить дёшево.
+              К тому же, разве цена не даёт определённый статус?
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-news">
+      <div class="container">
+        <div class="news-tittle">
+          <div class="news__tittle">новости и акции</div>
+          <button class="news__show btn">показать все</button>
+        </div>
+
+        <div class="news">
+          <div class="news__item">
+            <div class="news__date date">
+              <div class="date__number">29</div>
+              <div class="date__month">сент</div>
+            </div>
+            <div class="news__text">
+              Нам наконец завезли Ягермайстер! Теперь вы можете пропусить
+              стаканчик во время стрижки.
+            </div>
+          </div>
+
+          <div class="news__item">
+            <div class="news__date date">
+              <div class="date__number">19</div>
+              <div class="date__month">сент</div>
+            </div>
+            <div class="news__text">
+              В нашей команде пополнение, Борис «Бритва» Стригунец, пополнил
+              наши стройные ряды. Спешите записаться!
+            </div>
+          </div>
+
+          <div class="news__item news__item--hidden">
+            <div class="news__date date">
+              <div class="date__number ">9</div>
+              <div class="date__month">сент</div>
+            </div>
+            <div class="news__text">
+              Все дорожает, а наши стрижки нет! Как так? Приходите, постригитесь
+              и узнаете, в чем здесь подвох!
+            </div>
+          </div>
+        </div>
+
+        <div class="news-tittle">
+          <div class="news__tittle">отзывы о нас</div>
+          <button class="news__show btn">оставить свой</button>
+        </div>
+
+        <div class="review">
+          <button class="btn review__button">
+            <img src="../img/page-main/arrow-btn.png" alt="arrow" />
+          </button>
+          <div class="review__item">
+            <div class="test">
+              <img class="review__img" src="../img/page-main/man.png" alt="man" />
+            </div>
+            <div class="review-text">
+              <div class="review__name">Трэвис Баркер</div>
+              <div class="review__text">
+                Спасибо за лысину! Был проездом в Москве, заскочил побриться,
+                чтобы было видно новую татуировку!
+              </div>
+            </div>
+          </div>
+          <button class="btn review__button">
+            <img
+              
+              src="../img/page-main/arrow-btn.png"
+              alt="arrow"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer__adress">
+            <a href="#" class="footer__name">
+              барбершоп бородинский
+            </a>
+
+            <a href="#" class="footer__street">
+              г. Санкт-Петербург, ул. Большая Конюшенная 19/8
+            </a>
+
+            <a
+              href="tel:+7 (812)
+            555-66-66"
+              class="footer__number"
+              >Тел.: +7 (812) 555-66-66</a
+            >
+          </div>
+          <div class="footer__social">
+            <div class="footer__social--text">Давайте дружить!</div>
+            <div class="footer__social--icon">
+              <a href="#" class="footer__icon">
+                <img src="../img/page-main/vk.png" alt="" />
+              </a>
+              <a href="#" class="footer__icon">
+                <img src="../img/page-main/facebook.png" alt="" />
+              </a>
+              <a href="#"  class="footer__icon">
+                <img src="../img/page-main/inst.png" alt="" />
+              </a>
+            </a>
+          </div>
+          
+        </div>
+
+        <div class="footer__creator">
+          <div class="creator__name">Разработанно:</div>
+          <a href="#" class="creator">
+            <div>HTML ACADEMY</div>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="../js/page-main.js"></script>
+  </body>
+</html>
